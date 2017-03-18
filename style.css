@@ -1,0 +1,31 @@
+.parallax {
+  background-color: #BD3E34;
+  background-image: url("http://res.cloudinary.com/dgy2cqucw/image/upload/v1489377725/Bj%C3%B6rk_signature_hz53jn.png");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:auto;
+}
+
+.container-fluid {
+  padding-left:0px !important;
+  padding-right:0px !important;
+}
+/* .headline {
+  top: 0;
+  bottom: 0;
+  margin: 0;
+} */
+/*-------------------------------------------------------------------------------------------MEDIA QUERIES--------------------------*/
+
+/*  @media screen and (max-width:700px) {
+  .headline {
+  font-size:50%;
+} */
+/*    .parallax {
+     width:50%;
+     height:auto;
+   } */
+}
