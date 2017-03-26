@@ -1,0 +1,23 @@
+html {
+    padding:0px;
+    margin:0px;
+}
+.parallax {
+  background-color: #BD3E34;
+  background-image: url("http://res.cloudinary.com/dgy2cqucw/image/upload/v1489377725/Bj%C3%B6rk_signature_hz53jn.png");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:auto;
+}
+
+.container-fluid {
+  padding-left:-15px !important;
+  padding-right:-15px !important;
+}
+
+.bio {
+    margin:75%;
+}
