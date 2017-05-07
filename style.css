@@ -9,57 +9,88 @@ body {
 .row {
     width:auto;
 }
-.flex-container {
-    width:100%;
-    height:100%;
-    position:absolute;
-}
-.signature {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: block;
-    position:relative;
-    margin:0 auto;
-    margin-left:auto;
-    margin-right:auto;
 
-}
-
-.hed {
+.bodyContent {
     height:1000px;
     background-color:#D9C3A6;
-    font-family:'Megrim';
-    font-size: 4em;
-    text-align:center;
     padding: 100px; 0px; 0px; 0px;
     margin:0px;
 }
 
+#hed {
+/*    height:;00px;*/
+    font-family:'Megrim';
+    font-size: 4em;
+    font-weight:600;
+    text-align:center;
+    background-color:#D9C3A6;
+    font-family:'Megrim';
+/*    font-size: 72pt;*/
+    text-align:center;
+/*    padding: -500px;*/
+    margin:-50px;
+}
+
+h1 {
+/*    font-size:50pt;*/
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+
+}
 .parallax {
     background-color: #BD3E34;
-    /*  background-image: url("http://res.cloudinary.com/dgy2cqucw/image/upload/v1489377725/Bj%C3%B6rk_signature_hz53jn.png");*/
+    background-image: url("http://res.cloudinary.com/dgy2cqucw/image/upload/c_scale,w_380/v1489377725/Bj%C3%B6rk_signature_hz53jn.png");
     min-height: 500px;
     background-attachment: fixed;
-    background-position: top;
+    background-position: center top 30px;
     background-repeat: no-repeat;
+    background-size:contain;
+    background-size:35%;
+/*    background-origin:content-box;*/
     width: 100%;
-    height:auto;
+    height:50%;
 }
 
 .container-fluid {
     padding-left:0px !important;
 }
-
-.bio {
-    margin:75%;
+.well {
+    background-color:#222222;
+    border-radius:20px;
+    margin-top:190px;
 }
 
+#bio {
+    color: white;
+    font-size:2em;
+    text-align: center;
+}
+
+@media all and (max-width: 1000px) {
+#hed {
+    font-size:3em;
+    text-align:center;
+    }
+
 @media all and (max-width: 850px) {
-.hed {
+#hed {
     font-size:2em;
     text-align:center;
     }
+
+@media all and (max-width: 350px) {
+#hed {
+    font-size:1em;
+    text-align:center;
+    }
+    
+@media all and (max-width: 100px) {
+#hed {
+    font-size:pt;
+    text-align:center;
+    }
+
+    
 .signature {
     margin: 0 auto;
     width:50%;
